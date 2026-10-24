@@ -1,23 +1,20 @@
 {
-  "name": "connectorforge-review",
+  "name": "connectorforge-marketplace",
   "interface": {
-    "displayName": "ConnectorForge Review"
+    "displayName": "ConnectorForge Marketplace"
   },
   "plugins": [
     {
       "name": "connectorforge-review",
       "source": {
         "source": "local",
-        "path": "./connectorforge-review"
+        "path": "./plugins/connectorforge-review"
       },
       "policy": {
         "installation": "AVAILABLE",
         "authentication": "ON_INSTALL"
       },
-      "category": "Developer Tools",
-      "interface": {
-        "displayName": "ConnectorForge Review"
-      }
+      "category": "Developer Tools"
     }
   ]
 }

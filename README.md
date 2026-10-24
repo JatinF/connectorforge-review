@@ -14,6 +14,6 @@ In **Add plugin marketplace**:
 
 Then install **ConnectorForge Review** from that marketplace.
 
-The catalog is `.agents/plugins/marketplace.json`. The plugin package is `connectorforge-review/`.
+The catalog is `.agents/plugins/marketplace.json`. The plugin package is `plugins/connectorforge-review/`. Leave Sparse paths empty so that folder is included in the checkout.
 
 This repository is the Git install source. A public directory listing exists only after the package is uploaded, approved, and published.
