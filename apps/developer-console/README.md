@@ -98,7 +98,7 @@ Date: 2026-10-23. Console directory: `apps/developer-console`. API checkout: `F:
 | Playwright `npm run e2e` | 7 passed, Chromium, one worker, 34.3s |
 | ConnectorForge `pytest` | 30 passed, 2 warnings, 3.41s |
 
-Local Node is v18.19.1 and npm is 10.2.4. CI in `.github/workflows/console.yml` uses Node 20 and Python 3.12 on Ubuntu 24.04. That workflow checks out ConnectorForge at the commit above, installs it, and runs lint, types, unit tests, the Next.js build, Playwright, and the API pytest job. The workflow file is in this repository. A GitHub Actions run of it is not recorded here.
+Local Node is v18.19.1 and npm is 10.2.4. CI in `.github/workflows/console.yml` uses Node 20 and Python 3.12 on Ubuntu 24.04. That workflow checks out ConnectorForge at the commit above, installs it, and runs lint, types, unit tests, the Next.js build, Playwright, and the API pytest job. GitHub Actions run [40046596483](https://github.com/JatinF/connectorforge-review/actions/runs/40046596483) succeeded on commit `18cbd32`. The console job and the backend job both succeeded.
 
 `npm run build` was run for the production server that Playwright starts with `next start`. The e2e command refuses to reuse an already running server. It starts uvicorn with `PYTHONPATH` pointed at the API `src` directory, then starts the console on port 3100.
 
