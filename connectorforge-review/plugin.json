@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "connectorforge-review",
+  "version": "0.1.0",
+  "description": "Review MCP tool definitions for permission and approval risks, and build reproducible offline agent–tool evaluation plans. Skills-only; no network access or automatic scanning.",
+  "author": {
+    "name": "Jatinder Singh"
+  },
+  "keywords": [
+    "MCP",
+    "agent evaluation",
+    "tool safety",
+    "permissions",
+    "plugin review",
+    "developer tools"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ConnectorForge Review",
+        "shortDescription": "Audit MCP tools and evals",
+        "longDescription": "Review MCP tool definitions and plugin descriptions for correctness, risky writes, authorization and approval boundaries, organization isolation, error handling, and prompt-injection concerns. Generate offline tool-selection, failure, and safety evaluation cases with measurable pass/fail criteria. Produces an evidence-based review report and a development checklist. Skills-only in v0.1: it does not connect to or scan a live MCP server, run code, validate authentication, or certify security.",
+        "developerName": "Jatinder Singh",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Review MCP tool definitions",
+          "Design offline evaluations",
+          "Check plugin release claims"
+        ],
+        "defaultPrompt": [
+          "Review this MCP tool manifest for permissions, approvals, and potential misuse.",
+          "Create an offline tool-selection and safety evaluation suite from these tools.",
+          "Help prepare my skills-only plugin for the public plugin directory."
+        ],
+        "logo": "./assets/connectorforge-icon.png",
+        "composerIcon": "./assets/connectorforge-icon.png"
+      },
+      "publication": {
+        "release_notes": "Initial skills-only developer review workflow: MCP tool audits, offline agent–tool evaluation design, and plugin-submission preparation."
+      }
+    }
+  }
+}
