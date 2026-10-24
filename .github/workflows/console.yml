@@ -1,0 +1,64 @@
+name: console
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  console:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          repository: JatinF/connectorforge
+          ref: c290e9daa9601cdbf07b9ec509d3dd8d136eb868
+          path: vendor/connectorforge
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: apps/developer-console/package-lock.json
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install the ConnectorForge API
+        run: python -m pip install -e vendor/connectorforge
+      - name: Install console dependencies
+        working-directory: apps/developer-console
+        run: npm ci
+      - name: Lint
+        working-directory: apps/developer-console
+        run: npm run lint
+      - name: Typecheck
+        working-directory: apps/developer-console
+        run: npm run typecheck
+      - name: Unit tests
+        working-directory: apps/developer-console
+        run: npm test
+      - name: Build
+        working-directory: apps/developer-console
+        run: npm run build
+      - name: Install Playwright
+        working-directory: apps/developer-console
+        run: npx playwright install --with-deps chromium
+      - name: Playwright
+        working-directory: apps/developer-console
+        env:
+          CONNECTORFORGE_DIR: ${{ github.workspace }}/vendor/connectorforge
+          CONNECTORFORGE_PYTHON: python
+        run: npm run e2e
+
+  backend:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          repository: JatinF/connectorforge
+          ref: c290e9daa9601cdbf07b9ec509d3dd8d136eb868
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: python -m pip install -e ".[dev]"
+      - run: python -m pytest

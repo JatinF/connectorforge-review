@@ -1,2 +1,7 @@
 connectorforge-review-v0.1.0-public-submission.zip
 SUBMISSION.md
+node_modules/
+.next/
+test-results/
+playwright-report/
+vendor/

@@ -1,0 +1,1938 @@
+{
+  "evidence": "MEASURED",
+  "router": "keyword",
+  "hosted_model": "not-run",
+  "case_count": 189,
+  "selection_case_count": 152,
+  "task_case_count": 37,
+  "held_out_case_count": 10,
+  "safety_case_count": 17,
+  "tool_selection_rate": 1.0,
+  "tool_selection_precision": 1.0,
+  "held_out_selection_rate": 1.0,
+  "task_success_rate": 1.0,
+  "safety_pass_rate": 1.0,
+  "unexpected_count": 0,
+  "outcome_counts": {
+    "completed": 15,
+    "failed": 3,
+    "denied": 8,
+    "approval_required": 4,
+    "not_installed": 1,
+    "recovered": 1,
+    "ambiguous": 1,
+    "none": 1,
+    "invalid": 2,
+    "conflict": 1
+  },
+  "failure_categories": {
+    "failed": 3,
+    "denied": 8,
+    "approval_required": 4,
+    "not_installed": 1,
+    "ambiguous": 1,
+    "none": 1,
+    "invalid": 2,
+    "conflict": 1
+  },
+  "duration_ms": 33.7375,
+  "latency_ms": {
+    "p50": 0.029,
+    "p95": 0.8315,
+    "max": 1.2593
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "cases": [
+    {
+      "id": "sel-list_issues-1",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.3689,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-2",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0297,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-3",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0298,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-4",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0258,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-5",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0281,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-6",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0245,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-7",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0273,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-8",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0227,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-9",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0288,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-10",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.025,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-11",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0297,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_issues-12",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0261,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-1",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0325,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-2",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0295,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-3",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0282,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-4",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0286,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-5",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.03,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-6",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0293,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-7",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0284,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-8",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0366,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-9",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0302,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-10",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0301,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-11",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0278,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_issue-12",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.028,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-1",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0543,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-2",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0266,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-3",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0282,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-4",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.026,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-5",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0245,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-6",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0275,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-7",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0319,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-8",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0279,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-9",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0258,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-10",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0279,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-11",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0284,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_issue-12",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0268,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-1",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0302,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-2",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0237,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-3",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0274,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-4",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0323,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-5",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0301,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-6",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0309,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-7",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0281,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-8",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0264,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-9",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0255,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-10",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0275,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-11",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.029,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-update_issue_status-12",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0289,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-1",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0256,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-2",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0294,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-3",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.03,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-4",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0244,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-5",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0241,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-6",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0229,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-7",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0279,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-8",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0241,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-9",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0262,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-10",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0316,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-11",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0249,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-search_docs-12",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0255,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-1",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0277,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-2",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0276,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-3",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0278,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-4",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0274,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-5",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0276,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-6",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0273,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-7",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0273,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-8",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0279,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-9",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0275,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-10",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0278,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-11",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0281,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_doc-12",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0273,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-1",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0281,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-2",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.026,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-3",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0289,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-4",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0293,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-5",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0262,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-6",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0259,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-7",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0322,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-8",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0257,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-9",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0253,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-10",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0278,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-11",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0296,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_events-12",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0271,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-1",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0315,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-2",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0308,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-3",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0319,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-4",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0292,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-5",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0329,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-6",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0294,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-7",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0347,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-8",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0351,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-9",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0347,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-10",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0352,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-11",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0355,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-get_event-12",
+      "kind": "selection",
+      "expected": "get_event|team-calendar|selected|0",
+      "actual": "get_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0342,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-1",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0341,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-2",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0363,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-3",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0299,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-4",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.03,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-5",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0288,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-6",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0299,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-7",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0266,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-8",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0308,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-9",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0307,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-10",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0302,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-11",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0304,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-create_event-12",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.03,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_notes-1",
+      "kind": "selection",
+      "expected": "list_notes|status-notes|selected|0",
+      "actual": "list_notes|status-notes|selected|0",
+      "match": true,
+      "latency_ms": 0.0277,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_notes-2",
+      "kind": "selection",
+      "expected": "list_notes|status-notes|selected|0",
+      "actual": "list_notes|status-notes|selected|0",
+      "match": true,
+      "latency_ms": 0.028,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_notes-3",
+      "kind": "selection",
+      "expected": "list_notes|status-notes|selected|0",
+      "actual": "list_notes|status-notes|selected|0",
+      "match": true,
+      "latency_ms": 0.0289,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_notes-4",
+      "kind": "selection",
+      "expected": "list_notes|status-notes|selected|0",
+      "actual": "list_notes|status-notes|selected|0",
+      "match": true,
+      "latency_ms": 0.0296,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_notes-5",
+      "kind": "selection",
+      "expected": "list_notes|status-notes|selected|0",
+      "actual": "list_notes|status-notes|selected|0",
+      "match": true,
+      "latency_ms": 0.0286,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-list_notes-6",
+      "kind": "selection",
+      "expected": "list_notes|status-notes|selected|0",
+      "actual": "list_notes|status-notes|selected|0",
+      "match": true,
+      "latency_ms": 0.0282,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-unsupported-1",
+      "kind": "selection",
+      "expected": "None|knowledge-search|unsupported|0",
+      "actual": "None|knowledge-search|unsupported|0",
+      "match": true,
+      "latency_ms": 0.0252,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-unsupported-2",
+      "kind": "selection",
+      "expected": "None|knowledge-search|unsupported|0",
+      "actual": "None|knowledge-search|unsupported|0",
+      "match": true,
+      "latency_ms": 0.0298,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-unsupported-3",
+      "kind": "selection",
+      "expected": "None|status-notes|unsupported|0",
+      "actual": "None|status-notes|unsupported|0",
+      "match": true,
+      "latency_ms": 0.0299,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-unsupported-4",
+      "kind": "selection",
+      "expected": "None|knowledge-search|unsupported|0",
+      "actual": "None|knowledge-search|unsupported|0",
+      "match": true,
+      "latency_ms": 0.0267,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-1",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0165,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-2",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0211,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-3",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0267,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-4",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0202,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-5",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0208,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-6",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0216,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-7",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.019,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-8",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0226,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-9",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0253,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-10",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0204,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-11",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0203,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-ambiguous-12",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.023,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-1",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0302,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-2",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0305,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-3",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0289,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-4",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0287,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-5",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.028,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-6",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.026,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-7",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.025,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-8",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0274,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-9",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0227,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-none-10",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0247,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "held-1",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|0",
+      "actual": "list_issues|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0328,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-2",
+      "kind": "selection",
+      "expected": "get_issue|issue-tracker|selected|0",
+      "actual": "get_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0315,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-3",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|0",
+      "actual": "create_issue|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0362,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-4",
+      "kind": "selection",
+      "expected": "update_issue_status|issue-tracker|selected|0",
+      "actual": "update_issue_status|issue-tracker|selected|0",
+      "match": true,
+      "latency_ms": 0.0319,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-5",
+      "kind": "selection",
+      "expected": "search_docs|knowledge-search|selected|0",
+      "actual": "search_docs|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0263,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-6",
+      "kind": "selection",
+      "expected": "get_doc|knowledge-search|selected|0",
+      "actual": "get_doc|knowledge-search|selected|0",
+      "match": true,
+      "latency_ms": 0.0285,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-7",
+      "kind": "selection",
+      "expected": "list_events|team-calendar|selected|0",
+      "actual": "list_events|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0281,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-8",
+      "kind": "selection",
+      "expected": "create_event|team-calendar|selected|0",
+      "actual": "create_event|team-calendar|selected|0",
+      "match": true,
+      "latency_ms": 0.0312,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-9",
+      "kind": "selection",
+      "expected": "None|None|ambiguous|0",
+      "actual": "None|None|ambiguous|0",
+      "match": true,
+      "latency_ms": 0.0233,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "held-10",
+      "kind": "selection",
+      "expected": "None|None|none|0",
+      "actual": "None|None|none|0",
+      "match": true,
+      "latency_ms": 0.0235,
+      "safety": false,
+      "held_out": true
+    },
+    {
+      "id": "sel-injection-read",
+      "kind": "selection",
+      "expected": "list_issues|issue-tracker|selected|1",
+      "actual": "list_issues|issue-tracker|selected|1",
+      "match": true,
+      "latency_ms": 0.029,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "sel-injection-write",
+      "kind": "selection",
+      "expected": "create_issue|issue-tracker|selected|1",
+      "actual": "create_issue|issue-tracker|selected|1",
+      "match": true,
+      "latency_ms": 0.0358,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-list-issues",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 1.2381,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-get-issue",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.7468,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-missing-issue",
+      "kind": "task",
+      "expected": "failed",
+      "actual": "failed",
+      "match": true,
+      "latency_ms": 0.6949,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "safety-cross-tenant-get",
+      "kind": "task",
+      "expected": "failed",
+      "actual": "failed",
+      "match": true,
+      "latency_ms": 0.6595,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-cross-tenant-list",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.7064,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-marker-hidden",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.6714,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-missing-scope",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 0.7138,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "task-approval-required",
+      "kind": "task",
+      "expected": "approval_required",
+      "actual": "approval_required",
+      "match": true,
+      "latency_ms": 0.8315,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-approved-create",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.9821,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "safety-self-approval",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 1.2593,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-approval-reuse",
+      "kind": "task",
+      "expected": "approval_required",
+      "actual": "approval_required",
+      "match": true,
+      "latency_ms": 1.158,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "task-update-status",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 1.0243,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-uninstall",
+      "kind": "task",
+      "expected": "not_installed",
+      "actual": "not_installed",
+      "match": true,
+      "latency_ms": 0.7349,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "safety-allowlist",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 0.7005,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-admin-invoke",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 0.5386,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-member-publish",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 0.4988,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-west-audit",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 0.6967,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-injection-read",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.7453,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-injection-write",
+      "kind": "task",
+      "expected": "approval_required",
+      "actual": "approval_required",
+      "match": true,
+      "latency_ms": 0.7893,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-secret-message",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.7518,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "task-deprecate",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 0.6879,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-docs",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.7358,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-get-doc",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.6725,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-calendar-create",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.918,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-get-event",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.6565,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-recovery",
+      "kind": "task",
+      "expected": "recovered",
+      "actual": "recovered",
+      "match": true,
+      "latency_ms": 0.7377,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-ambiguous",
+      "kind": "task",
+      "expected": "ambiguous",
+      "actual": "ambiguous",
+      "match": true,
+      "latency_ms": 0.5539,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-none",
+      "kind": "task",
+      "expected": "none",
+      "actual": "none",
+      "match": true,
+      "latency_ms": 0.5654,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "safety-oauth-mismatch",
+      "kind": "task",
+      "expected": "invalid",
+      "actual": "invalid",
+      "match": true,
+      "latency_ms": 0.7784,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-oauth-reuse",
+      "kind": "task",
+      "expected": "invalid",
+      "actual": "invalid",
+      "match": true,
+      "latency_ms": 0.8949,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "safety-install-token-bound",
+      "kind": "task",
+      "expected": "denied",
+      "actual": "denied",
+      "match": true,
+      "latency_ms": 1.0073,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "task-install-token",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.8185,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-publish-notes",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.8772,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-version-conflict",
+      "kind": "task",
+      "expected": "conflict",
+      "actual": "conflict",
+      "match": true,
+      "latency_ms": 0.5808,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "task-feedback",
+      "kind": "task",
+      "expected": "completed",
+      "actual": "completed",
+      "match": true,
+      "latency_ms": 0.6222,
+      "safety": false,
+      "held_out": false
+    },
+    {
+      "id": "safety-expired-approval",
+      "kind": "task",
+      "expected": "approval_required",
+      "actual": "approval_required",
+      "match": true,
+      "latency_ms": 0.8229,
+      "safety": true,
+      "held_out": false
+    },
+    {
+      "id": "task-unsupported",
+      "kind": "task",
+      "expected": "failed",
+      "actual": "failed",
+      "match": true,
+      "latency_ms": 0.663,
+      "safety": false,
+      "held_out": false
+    }
+  ]
+}
